@@ -15,21 +15,17 @@
   
   }
   .middleContainer1 {
-    border-style: solid;
-    border-color: yellow;
     grid-column: 1 / -1;
-    grid-row: 4 / 7;
+    grid-row: 4 / 9;
   }
   .middleContainer2 {
-    border-style: solid;
-    border-color: violet;
-    grid-column: 1 / -1;
-    grid-row: 7 / 9;
+      grid-column: 1 / -1;
+    grid-row: 9 / 11;
   }
   .footer {
     //border-style: solid;
    // border-color: aqua;
     grid-column: 1 / -1;
-    grid-row: 9 / -1;
+    grid-row: 11 / -1;
   }
   

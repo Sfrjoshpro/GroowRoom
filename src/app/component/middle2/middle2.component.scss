@@ -1,0 +1,14 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-gap: 10px;
+    height: 100%;
+  }
+  .mothers{
+      border-style: solid;
+      border-color: black;
+      background-color: rgba($color: #17c200, $alpha: 1.0);
+    grid-column: 2 / 12;
+    grid-row: 2/ 12;
+  }
