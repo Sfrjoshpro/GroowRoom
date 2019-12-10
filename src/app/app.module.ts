@@ -13,6 +13,9 @@ import { NotifactionsComponent } from './component/subHeader/notifactions/notifa
 import { ClonesComponent } from './component/clones/clones.component';
 import { Clone1Component } from './component/clone/clone1/clone1.component';
 import { Clone2Component } from './component/clone/clone2/clone2.component';
+import { Veg1Component } from './component/veg/veg1/veg1.component';
+import { Veg2Component } from './component/veg/veg2/veg2.component';
+import { Veg3Component } from './component/veg/veg3/veg3.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,10 @@ import { Clone2Component } from './component/clone/clone2/clone2.component';
     NotifactionsComponent,
     ClonesComponent,
     Clone1Component,
-    Clone2Component
+    Clone2Component,
+    Veg1Component,
+    Veg2Component,
+    Veg3Component
   ],
   imports: [
     BrowserModule
