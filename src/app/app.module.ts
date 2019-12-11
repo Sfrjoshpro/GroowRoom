@@ -10,7 +10,6 @@ import { LogoComponent } from './component/subHeader/logo/logo.component';
 import { LoginComponent } from './component/subHeader/login/login.component';
 import { LogoutComponent } from './component/subHeader/logout/logout.component';
 import { NotifactionsComponent } from './component/subHeader/notifactions/notifactions.component';
-import { ClonesComponent } from './component/clones/clones.component';
 import { Clone1Component } from './component/clone/clone1/clone1.component';
 import { Clone2Component } from './component/clone/clone2/clone2.component';
 import { Veg1Component } from './component/veg/veg1/veg1.component';
@@ -28,8 +27,7 @@ import { Veg3Component } from './component/veg/veg3/veg3.component';
     LoginComponent,
     LogoutComponent,
     NotifactionsComponent,
-    ClonesComponent,
-    Clone1Component,
+     Clone1Component,
     Clone2Component,
     Veg1Component,
     Veg2Component,
