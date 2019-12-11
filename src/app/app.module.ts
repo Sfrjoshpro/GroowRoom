@@ -15,6 +15,9 @@ import { Clone2Component } from './component/clone/clone2/clone2.component';
 import { Veg1Component } from './component/veg/veg1/veg1.component';
 import { Veg2Component } from './component/veg/veg2/veg2.component';
 import { Veg3Component } from './component/veg/veg3/veg3.component';
+import { Flower1Component } from './component/flower/flower1/flower1.component';
+import { Flower2Component } from './component/flower/flower2/flower2.component';
+import { Flower3Component } from './component/flower/flower3/flower3.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +34,10 @@ import { Veg3Component } from './component/veg/veg3/veg3.component';
     Clone2Component,
     Veg1Component,
     Veg2Component,
-    Veg3Component
+    Veg3Component,
+    Flower1Component,
+    Flower2Component,
+    Flower3Component
   ],
   imports: [
     BrowserModule
