@@ -1,0 +1,52 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    grid-gap: 10px;
+    height: 100%;
+    width: 100%;
+}
+.text{
+    font-size: large;
+    text-align: center;
+}
+.color{
+    background-color: rgba($color: #17c200, $alpha: 1.0);
+   
+}
+.backbutton{
+    grid-column: 10 / 12;
+    grid-row: 1 / 2;
+  }
+.FWeek1{
+    grid-column: 6 / 9;
+    grid-row: 1 / 5;    
+}
+.FWeek2{
+    grid-column: 6 / 9;
+    grid-row: 5 / 9;    
+}
+.FWeek3{
+    grid-column: 6 / 9;
+    grid-row: 9 / 13;    
+}
+.FWeek4{
+    grid-column: 6 / 9;
+    grid-row: 13 / 17;    
+}
+.FWeek5{
+    grid-column: 13 / 16;
+    grid-row: 1 / 5;    
+}
+.FWeek6{
+    grid-column: 13 / 16;
+    grid-row: 5 / 9;    
+}
+.FWeek7{
+    grid-column: 13 / 16;
+    grid-row: 9 / 13;    
+}
+.FWeek8{
+    grid-column: 13 / 16;
+    grid-row: 13 / 17;    
+}
