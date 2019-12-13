@@ -7,15 +7,15 @@
   }
   .clone{
     grid-column: 2 / 4;
-    grid-row: 4/ 10;
+    grid-row: 2/ 6;
   }
   .veg{
     grid-column: 6/ 8;
-    grid-row: 4/ 10;
+    grid-row: 2/ 6;
   }
   .flower{
     grid-column: 10/ 12;
-    grid-row: 4/ 10;
+    grid-row: 2/ 6;
   }
   .buttoncolor{
     border-style: solid;
@@ -26,3 +26,10 @@
     padding-top: 30%;
     font-size: x-large;
   }
+  .mothers{
+    border-style: solid;
+    border-color: black;
+    background-color: rgba($color: #17c200, $alpha: 1.0);
+    grid-column: 6 / 8;
+    grid-row: 8/ 12;
+}

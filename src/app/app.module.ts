@@ -19,6 +19,7 @@ import { Flower1Component } from './component/flower/flower1/flower1.component';
 import { Flower2Component } from './component/flower/flower2/flower2.component';
 import { Flower3Component } from './component/flower/flower3/flower3.component';
 import { MothersComponent } from './component/mothers/mothers.component';
+import { AppRoutingModule } from './app-routing/app-routing.module';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { MothersComponent } from './component/mothers/mothers.component';
     MothersComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
